@@ -1,0 +1,195 @@
+<html>
+<head>
+<title>TestNG:  Testing on Edge Browser</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Testing on Edge Browser</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>4/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Tue Aug 01 12:01:08 IST 2023</td>
+</tr>
+<tr><td>Total time:</td><td>14 seconds (14491 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.example.EcommerceAutomationTest.ImageVisibilityTest()'><b>ImageVisibilityTest</b><br>Test class: com.example.EcommerceAutomationTest<br>Parameters: edge, E:\\STS_WORKSPACE\\Automating-Ecommerce-Website\\screenshots\\<br/>
+<a href="#Output-836397870" onClick='toggleBox("Output-836397870", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-836397870" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-836397870">
+Checking image visibility...<br/>
+Verify the frequency of content refresh while scrolling<br/>
+Executing the JavaScript code...<br/>
+Checking if images are visible on the screen...<br/>
+Verifying that the image is downloaded just before the user scrolls to its
+position and gets displayed in time...<br/>
+Time taken to display image: 17 milliseconds.<br/>
+Image is visible within the screen height.<br/>
+Time taken to load image: 11 milliseconds.<br/>
+Image is not visible within the screen height.<br/>
+Time taken to load image: 12 milliseconds.<br/>
+Image is not visible within the screen height.<br/>
+Time taken to load image: 13 milliseconds.<br/>
+Image is not visible within the screen height.<br/>
+Time taken to load image: 11 milliseconds.<br/>
+Image is not visible within the screen height.<br/>
+Time taken to load image: 12 milliseconds.<br/>
+Image is not visible within the screen height.<br/>
+Time taken to load image: 13 milliseconds.<br/>
+Image is not visible within the screen height.<br/>
+Time taken to load image: 10 milliseconds.<br/>
+Image is not visible within the screen height.<br/>
+Time taken to load image: 15 milliseconds.<br/>
+Image is not visible within the screen height.<br/>
+Time taken to load image: 11 milliseconds.<br/>
+Image is not visible within the screen height.<br/>
+Time taken to load image: 9 milliseconds.<br/>
+Image is not visible within the screen height.<br/>
+Time taken to load image: 13 milliseconds.<br/>
+Image is not visible within the screen height.<br/>
+Time taken to load image: 13 milliseconds.<br/>
+Image is not visible within the screen height.<br/>
+Time taken to load image: 10 milliseconds.<br/>
+Image is not visible within the screen height.<br/>
+Time taken to load image: 10 milliseconds.<br/>
+Image is not visible within the screen height.<br/>
+Time taken to load image: 10 milliseconds.<br/>
+Image is not visible within the screen height.<br/>
+Time taken to load image: 12 milliseconds.<br/>
+Image is not visible within the screen height.<br/>
+Time taken to load image: 11 milliseconds.<br/>
+Image is not visible within the screen height.<br/>
+Time taken to load image: 10 milliseconds.<br/>
+Image is not visible within the screen height.<br/>
+Time taken to load image: 11 milliseconds.<br/>
+Image is not visible within the screen height.<br/>
+Time taken to load image: 10 milliseconds.<br/>
+Image is not visible within the screen height.<br/>
+Time taken to load image: 12 milliseconds.<br/>
+Image is not visible within the screen height.<br/>
+Time taken to load image: 10 milliseconds.<br/>
+Image is not visible within the screen height.<br/>
+Time taken to load image: 10 milliseconds.<br/>
+Image is not visible within the screen height.<br/>
+Time taken to load image: 10 milliseconds.<br/>
+Image is not visible within the screen height.<br/>
+Time taken to load image: 10 milliseconds.<br/>
+Image is not visible within the screen height.<br/>
+Time taken to load image: 11 milliseconds.<br/>
+Image is not visible within the screen height.<br/>
+</div>
+</td>
+<td></td>
+<td>2</td>
+<td>com.example.EcommerceAutomationTest@3c77d488</td></tr>
+<tr>
+<td title='com.example.EcommerceAutomationTest.ScrollFeatureTest()'><b>ScrollFeatureTest</b><br>Test class: com.example.EcommerceAutomationTest<br>Parameters: edge, E:\\STS_WORKSPACE\\Automating-Ecommerce-Website\\screenshots\\<br/>
+<a href="#Output-1618326227" onClick='toggleBox("Output-1618326227", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1618326227" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1618326227">
+Reached iPhone 13 Page<br/>
+Testing scroll feature<br/>
+Successfully navigated to the bottom of the page.<br/>
+</div>
+</td>
+<td></td>
+<td>4</td>
+<td>com.example.EcommerceAutomationTest@3c77d488</td></tr>
+<tr>
+<td title='com.example.EcommerceAutomationTest.HomePageTest()'><b>HomePageTest</b><br>Test class: com.example.EcommerceAutomationTest<br>Parameters: https://www.flipkart.com, edge, E:\\STS_WORKSPACE\\Automating-Ecommerce-Website\\screenshots\\<br/>
+<a href="#Output-1395173825" onClick='toggleBox("Output-1395173825", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1395173825" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1395173825">
+Page load time: 2073 milliseconds<br/>
+Reached Flipkart Home page with edge driver<br/>
+Home title matched<br/>
+Pop-up has appeared, and it has been closed<br/>
+</div>
+</td>
+<td></td>
+<td>2</td>
+<td>com.example.EcommerceAutomationTest@3c77d488</td></tr>
+<tr>
+<td title='com.example.EcommerceAutomationTest.MobileSearchTest()'><b>MobileSearchTest</b><br>Test class: com.example.EcommerceAutomationTest<br>Parameters: edge, E:\\STS_WORKSPACE\\Automating-Ecommerce-Website\\screenshots\\<br/>
+<a href="#Output-261838162" onClick='toggleBox("Output-261838162", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-261838162" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-261838162">
+Clicking on Mobiles link<br/>
+Reached mobiles Page<br/>
+Sending Keys "iPhone 13"<br/>
+Clicking on search option<br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>com.example.EcommerceAutomationTest@3c77d488</td></tr>
+</table><p>
+</body>
+</html>

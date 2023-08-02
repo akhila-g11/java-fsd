@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Automating-Ecommerce-Website]" guice-stage="DEVELOPMENT">
+  <parameter name="websiteURL" value="https://www.flipkart.com"/>
+  <parameter name="fileLoc" value="E:\\STS_WORKSPACE\\Automating-Ecommerce-Website\\screenshots\\"/>
+  <test thread-count="5" name="Testing on Firefox Browser(failed)">
+    <parameter name="driverPath" value="F:\\SELENIUM\\Drivers\geckodriver.exe"/>
+    <parameter name="driverName" value="gecko"/>
+    <classes>
+      <class name="com.example.EcommerceAutomationTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="MobileSearchTest" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.example.EcommerceAutomationTest -->
+    </classes>
+  </test> <!-- Testing on Firefox Browser(failed) -->
+</suite> <!-- Failed suite [Automating-Ecommerce-Website] -->

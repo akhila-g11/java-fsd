@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Automating-Ecommerce-Website">
+	<parameter name="fileLoc"
+		value="E:\\STS_WORKSPACE\\Automating-Ecommerce-Website\\screenshots\\"></parameter>
+	<parameter name="websiteURL" value="https://www.flipkart.com"></parameter>
+	<test name="Testing on Chrome Browser" parallel="false">
+		<parameter name="driverName" value="chrome"></parameter>
+		<parameter name="driverPath"
+			value="F:\\SELENIUM\\Drivers\chromedriver.exe"></parameter>
+		<classes>
+			<class name="com.example.EcommerceAutomationTest" />
+		</classes>
+	</test>
+	<test name="Testing on Edge Browser" parallel="false">
+		<parameter name="driverName" value="edge"></parameter>
+		<parameter name="driverPath"
+			value="F:\\SELENIUM\\Drivers\msedgedriver.exe"></parameter>
+		<classes>
+			<class name="com.example.EcommerceAutomationTest" />
+		</classes>
+	</test>
+	<test name="Testing on Firefox Browser" parallel="false">
+		<parameter name="driverName" value="gecko"></parameter>
+		<parameter name="driverPath"
+			value="F:\\SELENIUM\\Drivers\geckodriver.exe"></parameter>
+		<classes>
+			<class name="com.example.EcommerceAutomationTest" />
+		</classes>
+	</test>
+</suite> 
+<!-- ===================================github.com/AkshayTR2023=============================================== -->
